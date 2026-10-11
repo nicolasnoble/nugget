@@ -10,6 +10,7 @@ all:
 	$(MAKE) -C cop0 all
 	$(MAKE) -C cop0-sr all
 	$(MAKE) -C dcache all
+	$(MAKE) -C delay-slot-exception all
 	$(MAKE) -C dma all
 	$(MAKE) -C icache all
 	$(MAKE) -C irq-branch-slot all
@@ -105,6 +106,7 @@ clean:
 	$(MAKE) -C cop0 clean
 	$(MAKE) -C cop0-sr clean
 	$(MAKE) -C dcache clean
+	$(MAKE) -C delay-slot-exception clean
 	$(MAKE) -C dma clean
 	$(MAKE) -C icache clean
 	$(MAKE) -C irq-branch-slot clean

@@ -31,6 +31,7 @@ TESTS=(
     "cop0;cop0/cop0;interpreter;$CESTER;-debugger"
     "cop-branch;cop-branch/cop-branch;interpreter;$CESTER;-debugger"
     "cpu;cpu/cpu;interpreter dynarec;$CESTER;"
+    "delay-slot-exception;delay-slot-exception/delay-slot-exception;interpreter;$CESTER;"
     "dma;dma/dma;interpreter dynarec;$CESTER;-debugger"
     "gpu-command;gpu-command/gpu-command;interpreter;$CESTER;"
     "gpu-fbrect;gpu-fbrect/gpu-fbrect;interpreter;$CESTER;"
